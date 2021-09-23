@@ -1,32 +1,29 @@
-
-	h1 {
-		color: orangered;
+h1 {
+		color: blue;
 		font-size: 45px;
 	}
 
-	/* 3*3 Grid */
-	#b1, #b2, #b3, #b4, #b5,
-	#b6, #b7, #b8, #b9 {
-		width: 80px;
+	#box1, #box2, #box3, #box4, #box5,
+	#box6, #box7, #box8, #box9 {
+		width: 70px;
 		height: 52px;
 		margin: auto;
 		border: 1px solid gray;
 		border-radius: 6px;
 		font-size: 30px;
 		text-align: center;
+    background-color: aquamarine;
 	}
 
 	/* Reset Button */
-	#but {
+	#button {
 		box-sizing: border-box;
 		width: 95px;
 		height: 40px;
 		border: 1px solid dodgerblue;
 		margin: auto;
 		border-radius: 4px;
-		font-family: Verdana,
-			Geneva, Tahoma, sans-serif;
-
+		font-family: sans-serif;
 		background-color: dodgerblue;
 		color: white;
 		font-size: 20px;
@@ -34,7 +31,7 @@
 	}
 
 	/* Player turn space */
-	#print {
+	#printResult {
 		font-family: Verdana,
 			Geneva, Tahoma, sans-serif;
 
@@ -43,7 +40,7 @@
 	}
 
 	/* Main Container */
-	#main {
+	#container {
 		text-align: center;
 	}
 
