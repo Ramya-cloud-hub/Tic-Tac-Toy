@@ -1,8 +1,11 @@
+body {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+}
 h1 {
 		color: blue;
-		font-size: 45px;
+		font-size: 50px;
 	}
-
 	#box1, #box2, #box3, #box4, #box5,
 	#box6, #box7, #box8, #box9 {
 		width: 70px;
@@ -14,41 +17,24 @@ h1 {
 		text-align: center;
     background-color: aquamarine;
 	}
-
-	/* Reset Button */
 	#button {
 		box-sizing: border-box;
-		width: 95px;
-		height: 40px;
-		border: 1px solid dodgerblue;
+		width: 100px;
+		height: 100px;
+    cursor: pointer;
+		border: 1px solid black;
 		margin: auto;
 		border-radius: 4px;
-		font-family: sans-serif;
-		background-color: dodgerblue;
+		background-color: blue;
 		color: white;
-		font-size: 20px;
-		cursor: pointer;
+		font-size: 25px;
+	
 	}
 
-	/* Player turn space */
 	#printResult {
-		font-family: Verdana,
-			Geneva, Tahoma, sans-serif;
-
-		color: dodgerblue;
-		font-size: 20px;
+		color: red;
+		font-size: 45px;
 	}
-
-	/* Main Container */
 	#container {
 		text-align: center;
-	}
-
-	/* Game Instruction Text */
-	#ins {
-		font-family: Verdana,
-			Geneva, Tahoma, sans-serif;
-			
-		color: dodgerblue;
-		font-size: 17px;
 	}
